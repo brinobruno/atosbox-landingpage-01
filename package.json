@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon assets/js/index.js",
+    "scss": "sass --watch assets/scss/index.scss assets/css/index.css"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "node-sass": "^6.0.1",
     "scrollreveal": "4.0.0",
     "swiper": "7.1.0"
   }

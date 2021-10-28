@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "dinnextstencil-regular";
+  src: url(../fonts/DINNextStencil-Regular.ttf);
+}
+@font-face {
+  font-family: "dinnextstencil-bold";
+  src: url(../fonts/DINNextStencil-Bold.ttf);
+}
+@font-face {
+  font-family: "dinnextstencil-heavy";
+  src: url(../fonts/DINNextStencil-Heavy.ttf);
+}
+@font-face {
+  font-family: "dinnextstencil-regular";
+  src: url(../fonts/DINNextStencil-Regular.ttf);
+}
+@font-face {
+  font-family: "dinnextstencil-bold";
+  src: url(../fonts/DINNextStencil-Bold.ttf);
+}
+@font-face {
+  font-family: "dinnextstencil-heavy";
+  src: url(../fonts/DINNextStencil-Heavy.ttf);
+}
+.c1 {
+  background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.6), rgba(52, 52, 52, 0.6)), url("../img-stock/pexels-tima-miroshnichenko-6388453.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 0vh;
+}
+.c1 img {
+  padding: 2rem 0 0 2rem;
+  width: 6.25rem;
+}
+.c1 .text {
+  padding-top: 13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.c1 .text h1 {
+  font-size: 3.55rem;
+  text-align: center;
+}
+.c1 .text p {
+  font-size: 1.5rem;
+  text-align: center;
+  max-width: 60%;
+  padding: 1.3rem 0 2.5rem 0;
+}
+.c1 h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 3.15rem;
+  background-color: #111111;
+  margin-top: 10.6rem;
+  padding: 3rem;
+}
+.c1 #learn-more-button {
+  font-family: "dinnextstencil-bold";
+  color: #EBEBEB;
+  font-size: 1.45rem;
+  width: 15.5rem;
+  height: 3.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.01);
+  border: 0.15rem solid #FAB518;
+  border-radius: 1.125rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.c1 #learn-more-button:hover {
+  background-color: #111111;
+  border: #111111;
+  transition: 0.4s;
+}
+
+@font-face {
+  font-family: "dinnextstencil-regular";
+  src: url(../fonts/DINNextStencil-Regular.ttf);
+}
+@font-face {
+  font-family: "dinnextstencil-bold";
+  src: url(../fonts/DINNextStencil-Bold.ttf);
+}
+@font-face {
+  font-family: "dinnextstencil-heavy";
+  src: url(../fonts/DINNextStencil-Heavy.ttf);
+}
+*, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-family: "dinnextstencil-bold";
+  color: #EBEBEB;
+}
+
+p {
+  font-family: "dinnextstencil-regular";
+  color: #EBEBEB;
+}
+
+.container {
+  height: 100vh;
+}
+
+/*# sourceMappingURL=index.css.map */

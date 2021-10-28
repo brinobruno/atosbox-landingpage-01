@@ -1,3 +1,13 @@
+//font
 $dinnextstencil-regular: 'dinnextstencil-regular';
 $dinnextstencil-bold: 'dinnextstencil-bold';
 $dinnextstencil-heavy: 'dinnextstencil-heavy';
+
+//colors
+$primary-color: #FAB518;
+$main-text-color: #EBEBEB;
+$background-plain: #111111;
+$background-second-linear: #343434;
+
+//linear-config
+$background-linear: linear-gradient($background-plain, $background-second-linear);

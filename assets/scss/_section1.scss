@@ -1,0 +1,70 @@
+@import "./fonts";
+@import "./variables";
+
+.c1 {
+
+    background-image: linear-gradient(to bottom, rgba(17, 17, 17,0.6), rgba(52, 52, 52, 0.6)),
+    url("../img-stock/pexels-tima-miroshnichenko-6388453.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 100vh - 100vh;
+
+    img {
+        padding: 2rem 0 0 2rem;
+        width: 6.25rem;
+    }
+
+    .text {
+        padding-top: 13rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font-size: 3.55rem;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.5rem;
+            text-align: center;
+            max-width: 60%;
+            padding: 1.3rem 0 2.5rem 0;
+        }
+    }
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        font-size: 3.15rem;
+        background-color: $background-plain;
+
+        margin-top: 10.6rem;
+        padding: 3rem;
+    }
+
+    #learn-more-button {
+        font-family: $dinnextstencil-bold;
+        color: $main-text-color;
+        font-size: 1.45rem;
+        width: 15.5rem;
+        height: 3.85rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.01);
+        border: 0.15rem solid $primary-color;
+        border-radius: 1.125rem;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $background-plain;
+            border: $background-plain;
+            transition: 0.4s;
+        }
+
+    }
+
+}
+
