@@ -23,6 +23,7 @@
   src: url(../fonts/DINNextStencil-Heavy.ttf);
 }
 .c1 {
+  height: 92vh;
   background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.6), rgba(52, 52, 52, 0.6)), url("../img-stock/pexels-tima-miroshnichenko-6388453.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -47,14 +48,6 @@
   text-align: center;
   max-width: 60%;
   padding: 1.3rem 0 2.5rem 0;
-}
-.c1 h3 {
-  display: flex;
-  justify-content: center;
-  font-size: 3.15rem;
-  background-color: #111111;
-  margin-top: 10.6rem;
-  padding: 3rem;
 }
 .c1 #learn-more-button {
   font-family: "dinnextstencil-bold";
@@ -89,13 +82,157 @@
   font-family: "dinnextstencil-heavy";
   src: url(../fonts/DINNextStencil-Heavy.ttf);
 }
+.c2 {
+  height: 122vh;
+  background: linear-gradient(to bottom, #111111, #343434);
+  /* testimonial swiper  */
+}
+.c2 h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 3.15rem;
+  background-color: #171717;
+  padding: 3rem;
+}
+.c2 blockquote {
+  padding: 2rem;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.c2 blockquote p {
+  color: #FAB518;
+  font-family: "dinnextstencil-bold";
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.c2 blockquote p span {
+  font: 700 2.6rem serif;
+  position: absolute;
+  top: -0.8rem;
+  left: -1.875rem;
+  color: #EBEBEB;
+}
+.c2 blockquote cite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #EBEBEB;
+  font-size: 1.2rem;
+  font-style: normal;
+  padding-bottom: 0.4rem;
+}
+.c2 blockquote cite img {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  margin-right: 0.5rem;
+  margin-bottom: 0.85rem;
+}
+.c2 .swiper {
+  margin: 0 5rem 0 5rem;
+}
+.c2 .swiper .swiper-slide {
+  height: auto;
+  padding: 0rem 1rem 1.25rem 1rem;
+}
+.c2 .swiper .swiper-pagination-bullet {
+  width: 0.75rem;
+  height: 0.75rem;
+  background: #c8c8c8;
+}
+.c2 .swiper .swiper-pagination-bullet-active {
+  background: #FAB518;
+}
+.c2 .disclaimer {
+  padding: 1.75rem 0;
+  display: flex;
+  justify-content: center;
+}
+.c2 .disclaimer p {
+  color: #EBEBEB;
+  text-align: center;
+}
+.c2 .specialist-quote {
+  margin: 1.5rem 18rem;
+}
+.c2 .specialist-quote p {
+  font-size: 3.25rem;
+  font-family: "dinnextstencil-bold";
+  text-align: center;
+}
+.c2 .specialist-quote span {
+  color: #FAB518;
+}
+.c2 .specialist-quote .specialist-author {
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.c2 .specialist-quote .specialist-author p {
+  font-family: "dinnextstencil-bold";
+  font-size: 2.15rem;
+  text-align: right;
+}
+.c2 .specialist-quote .specialist-author span {
+  font-family: "dinnextstencil-bold";
+  color: #FAB518;
+  font-size: 1.85rem;
+  text-align: right;
+}
+
+@font-face {
+  font-family: "dinnextstencil-regular";
+  src: url(../fonts/DINNextStencil-Regular.ttf);
+}
+@font-face {
+  font-family: "dinnextstencil-bold";
+  src: url(../fonts/DINNextStencil-Bold.ttf);
+}
+@font-face {
+  font-family: "dinnextstencil-heavy";
+  src: url(../fonts/DINNextStencil-Heavy.ttf);
+}
+.c3 {
+  height: 100vh;
+  display: flex;
+  background-color: #111111;
+  overflow-y: hidden;
+}
+.c3 .c3-left img {
+  width: 47vw;
+}
+.c3 .c3-right {
+  padding: 0 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.c3 .c3-right .right-up {
+  padding-bottom: 0.75rem;
+}
+.c3 .c3-right .right-up p, .c3 .c3-right .right-up span {
+  font-size: 3rem;
+  font-family: "dinnextstencil-bold";
+  text-align: center;
+}
+.c3 .c3-right .right-up span {
+  color: #FAB518;
+}
+.c3 .c3-right .right-down p {
+  font-size: 2rem;
+  font-family: "dinnextstencil-regular";
+}
+
 *, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: "dinnextstencil-bold";
   color: #EBEBEB;
 }
@@ -105,8 +242,8 @@ p {
   color: #EBEBEB;
 }
 
-.container {
-  height: 100vh;
+cite {
+  font-family: "dinnextstencil-regular";
 }
 
 /*# sourceMappingURL=index.css.map */

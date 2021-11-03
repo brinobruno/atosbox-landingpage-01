@@ -1,2 +1,121 @@
 @import "./fonts";
 @import "./variables";
+
+.c2 {
+    height: 122vh;
+    @include linearBackground ();
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        font-size: 3.15rem;
+        background-color: #171717;
+
+        padding: 3rem;
+    }
+
+    blockquote {
+        padding: 2rem;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+            color: $primary-color;
+            font-family: $dinnextstencil-bold;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+
+            span {
+                font: 700 2.6rem serif;
+                position: absolute;
+                top: -0.8rem;
+                left: -1.875rem;
+                color: $main-text-color;
+            }
+        }
+
+        cite {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: $main-text-color;
+            font-size: 1.2rem;
+            font-style: normal;
+            padding-bottom: 0.4rem;
+
+            img {
+                width: 15rem;
+                height: 15rem;
+                object-fit: cover;
+                margin-right: 0.5rem;
+                margin-bottom: 0.85rem;
+            }
+        }
+    }
+    
+    /* testimonial swiper  */
+    .swiper {
+        margin: 0 5rem 0 5rem;
+
+        .swiper-slide {
+            height: auto;
+            padding: 0rem 1rem 1.25rem 1rem;
+        }
+        
+        .swiper-pagination-bullet {
+            width: 0.75rem;
+            height: 0.75rem;
+            background: $swiper-pagination;
+        }
+        
+        .swiper-pagination-bullet-active {
+            background: $primary-color;
+        }
+    }
+
+    .disclaimer {
+        padding: 1.75rem 0;
+        display: flex;
+        justify-content: center;
+
+        p {
+            color: $main-text-color;
+            text-align: center;
+        }
+    }
+
+    .specialist-quote {
+        margin: 1.5rem 18rem;
+
+        p {
+            font-size: 3.25rem;
+            font-family: $dinnextstencil-bold;
+            text-align: center;
+        }
+        span {
+            color: $primary-color;
+        }
+        
+        .specialist-author {
+            padding-top: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            p {
+                font-family: $dinnextstencil-bold;
+                font-size: 2.15rem;
+                text-align: right;
+            }
+
+            span {
+                font-family: $dinnextstencil-bold;
+                color: $primary-color;
+                font-size: 1.85rem;
+                text-align: right;
+            }
+        }
+    }
+}

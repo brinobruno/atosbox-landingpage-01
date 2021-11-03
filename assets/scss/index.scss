@@ -2,6 +2,7 @@
 @import "./variables";
 @import "./section1";
 @import "./section2";
+@import "./section3";
 
 //reset
 *, body {
@@ -10,7 +11,7 @@ padding: 0;
 box-sizing: border-box;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: $dinnextstencil-bold;
     color: $main-text-color;
 }
@@ -20,6 +21,6 @@ p {
     color: $main-text-color;
 }
 
-.container {
-    height: 100vh;
+cite {
+    font-family: $dinnextstencil-regular;
 }

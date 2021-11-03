@@ -8,6 +8,13 @@ $primary-color: #FAB518;
 $main-text-color: #EBEBEB;
 $background-plain: #111111;
 $background-second-linear: #343434;
+$swiper-pagination: #c8c8c8;
 
 //linear-config
 $background-linear: linear-gradient($background-plain, $background-second-linear);
+
+//mixin
+
+@mixin linearBackground {
+    background: linear-gradient(to bottom, $background-plain, $background-second-linear);
+}

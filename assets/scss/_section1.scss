@@ -1,8 +1,9 @@
 @import "./fonts";
 @import "./variables";
 
-.c1 {
 
+.c1 {
+    height: 92vh;
     background-image: linear-gradient(to bottom, rgba(17, 17, 17,0.6), rgba(52, 52, 52, 0.6)),
     url("../img-stock/pexels-tima-miroshnichenko-6388453.jpg");
     background-size: cover;
@@ -31,16 +32,6 @@
             max-width: 60%;
             padding: 1.3rem 0 2.5rem 0;
         }
-    }
-
-    h3 {
-        display: flex;
-        justify-content: center;
-        font-size: 3.15rem;
-        background-color: $background-plain;
-
-        margin-top: 10.6rem;
-        padding: 3rem;
     }
 
     #learn-more-button {

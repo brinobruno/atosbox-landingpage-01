@@ -1,0 +1,43 @@
+@import "./fonts";
+@import "./variables";
+
+.c3 {
+    height: 100vh;
+    display: flex;
+    background-color: $background-plain;
+    overflow-y: hidden;
+
+    .c3-left {
+
+        img {
+            width: 47vw;
+        }
+    }
+
+    .c3-right {
+        padding: 0 12rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .right-up {
+            padding-bottom: 0.75rem;
+
+            p, span {
+                font-size: 3rem;
+                font-family: $dinnextstencil-bold;
+                text-align: center;
+            }
+            span {
+                color: $primary-color;
+            }
+        }
+
+        .right-down {
+            p {
+                font-size: 2rem;
+                font-family: $dinnextstencil-regular;
+            }
+        }
+    }
+}
