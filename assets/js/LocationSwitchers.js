@@ -18,8 +18,7 @@
         }
     }
 
-
-//use the switchers
+//apply the switchers
 
 function switchLocation(locationId) {  
     const currentLocation = document.querySelector('.locations-description .description-item.is-active')
