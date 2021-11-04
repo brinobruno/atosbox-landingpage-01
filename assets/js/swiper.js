@@ -25,15 +25,26 @@ swiper = new Swiper ('.swiper', {
 
 const swiper = new Swiper('.swiper-container', {
   slidesPerView: 1,
+  distanceBetween: 10,
   pagination: {
     el: '.swiper-pagination'
   },
   mousewheel: true,
   keyboard: true,
   breakpoints: {
-    767: {
+
+    830: {
+      slidesPerView: 2,
+      setWrapperSize: true
+    },
+    1200: {
+      slidesPerView: 3,
+      setWrapperSize: true
+    },
+    1400: {
       slidesPerView: 4,
       setWrapperSize: true
     }
+
   }
 })

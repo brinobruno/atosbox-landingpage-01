@@ -31,29 +31,35 @@
 }
 .c1 img {
   padding: 2rem 0 0 2rem;
-  width: 6.25rem;
+  width: 8.25rem;
 }
 .c1 .text {
-  padding-top: 13rem;
+  padding-top: 9.56rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.c1 .text h1 {
+.c1 .text .landing-title {
   font-size: 3.55rem;
   text-align: center;
+  font-family: "dinnextstencil-bold";
+}
+.c1 .text .landing-title span {
+  color: #FAB518;
 }
 .c1 .text p {
   font-size: 1.5rem;
   text-align: center;
   max-width: 60%;
+}
+.c1 .text .p-space {
   padding: 1.3rem 0 2.5rem 0;
 }
 .c1 #learn-more-button {
   font-family: "dinnextstencil-bold";
   color: #EBEBEB;
   font-size: 1.45rem;
-  width: 15.5rem;
+  width: 21.3rem;
   height: 3.85rem;
   display: flex;
   align-items: center;
@@ -131,7 +137,7 @@
   margin-bottom: 0.85rem;
 }
 .c2 .swiper {
-  margin: 0 5rem 0 5rem;
+  margin: 0 9rem 0 9rem;
 }
 .c2 .swiper .swiper-slide {
   height: auto;
@@ -158,7 +164,7 @@
   margin: 1.5rem 18rem;
 }
 .c2 .specialist-quote p {
-  font-size: 3.25rem;
+  font-size: 2.55rem;
   font-family: "dinnextstencil-bold";
   text-align: center;
 }
@@ -173,13 +179,13 @@
 }
 .c2 .specialist-quote .specialist-author p {
   font-family: "dinnextstencil-bold";
-  font-size: 2.15rem;
+  font-size: 1.85rem;
   text-align: right;
 }
 .c2 .specialist-quote .specialist-author span {
   font-family: "dinnextstencil-bold";
   color: #FAB518;
-  font-size: 1.85rem;
+  font-size: 1.55rem;
   text-align: right;
 }
 
@@ -224,6 +230,76 @@
 .c3 .c3-right .right-down p {
   font-size: 2rem;
   font-family: "dinnextstencil-regular";
+  text-align: center;
+}
+
+@font-face {
+  font-family: "dinnextstencil-regular";
+  src: url(../fonts/DINNextStencil-Regular.ttf);
+}
+@font-face {
+  font-family: "dinnextstencil-bold";
+  src: url(../fonts/DINNextStencil-Bold.ttf);
+}
+@font-face {
+  font-family: "dinnextstencil-heavy";
+  src: url(../fonts/DINNextStencil-Heavy.ttf);
+}
+.c4 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4rem;
+  background: linear-gradient(to bottom, #111111, #343434);
+}
+.c4 .c4-title, .c4 span {
+  font-size: 4rem;
+  font-family: "dinnextstencil-bold";
+  text-align: center;
+}
+.c4 span {
+  color: #FAB518;
+}
+.c4 .about-benefits {
+  display: flex;
+  padding: 5rem 0 5rem;
+}
+.c4 .about-benefits .benefit-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5.5rem;
+  flex: 1 1 0;
+}
+.c4 .about-benefits .benefit-item img {
+  width: 15rem;
+  padding-bottom: 3.25rem;
+}
+.c4 .about-benefits .benefit-item p {
+  font-size: 1.25rem;
+  text-align: center;
+}
+.c4 #learn-more-button {
+  font-family: "dinnextstencil-bold";
+  color: #EBEBEB;
+  font-size: 1.45rem;
+  width: 21.3rem;
+  height: 3.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.01);
+  border: 0.15rem solid #FAB518;
+  border-radius: 1.125rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.c4 #learn-more-button:hover {
+  background-color: #111111;
+  border: #111111;
+  transition: 0.4s;
 }
 
 *, body {
@@ -244,6 +320,10 @@ p {
 
 cite {
   font-family: "dinnextstencil-regular";
+}
+
+.container {
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=index.css.map */
