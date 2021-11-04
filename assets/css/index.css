@@ -24,7 +24,7 @@
 }
 .c1 {
   height: 92vh;
-  background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.6), rgba(52, 52, 52, 0.6)), url("../img-stock/pexels-tima-miroshnichenko-6388453.jpg");
+  background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.6), rgba(52, 52, 52, 0.6)), url("../img-stock/CoverPage-Athlete.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center 0vh;
@@ -348,17 +348,25 @@
   height: 8rem;
   border-radius: 1.5rem;
   border: 0.15rem solid #111111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .c5 .locations-menu .locations-div .locations-buttons .location-item a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 1.25rem;
 }
 .c5 .locations-menu .locations-div .locations-buttons .location-item a span {
+  font-size: 1.5rem;
   font-family: "dinnextstencil-bold";
+  padding-bottom: 0.25rem;
 }
 .c5 .locations-menu .locations-div .locations-buttons .location-item a p {
+  font-size: 1.3rem;
   text-align: left;
+  padding-top: 0.25rem;
 }
 .c5 .locations-menu .locations-div .locations-buttons .location-item.is-active {
   border: 0.15rem solid #FAB518;
