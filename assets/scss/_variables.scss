@@ -15,8 +15,12 @@ $background-linear: linear-gradient($background-plain, $background-second-linear
 
 //mixin
 
-@mixin linearBackground {
+@mixin linearBackground () {
     background: linear-gradient(to bottom, $background-plain, $background-second-linear);
+}
+
+@mixin linearBackgroundAlt () {
+    background: linear-gradient(to bottom, $background-second-linear, $background-plain);
 }
 
 @mixin learnMoreButton {

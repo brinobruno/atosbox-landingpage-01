@@ -302,6 +302,80 @@
   transition: 0.4s;
 }
 
+@font-face {
+  font-family: "dinnextstencil-regular";
+  src: url(../fonts/DINNextStencil-Regular.ttf);
+}
+@font-face {
+  font-family: "dinnextstencil-bold";
+  src: url(../fonts/DINNextStencil-Bold.ttf);
+}
+@font-face {
+  font-family: "dinnextstencil-heavy";
+  src: url(../fonts/DINNextStencil-Heavy.ttf);
+}
+.c5 {
+  height: 100vh;
+  background-color: #111111;
+}
+.c5 .c5-title, .c5 .c5-description {
+  text-align: center;
+}
+.c5 .c5-title {
+  font-family: "dinnextstencil-bold";
+  font-size: 3.5rem;
+  padding-top: 5rem;
+}
+.c5 .c5-description {
+  font-size: 1.85rem;
+  font-family: "dinnextstencil-regular";
+}
+.c5 .c5-description:nth-child(3) {
+  padding-bottom: 2.35rem;
+}
+.c5 span {
+  color: #FAB518;
+}
+.c5 .locations-menu {
+  display: flex;
+}
+.c5 .locations-menu .locations-div .locations-buttons .location-item {
+  cursor: pointer;
+  list-style: none;
+  background: linear-gradient(to bottom, #343434, #111111);
+  margin: 2.25rem 5rem;
+  width: 23rem;
+  height: 8rem;
+  border-radius: 1.5rem;
+  border: 0.15rem solid #111111;
+}
+.c5 .locations-menu .locations-div .locations-buttons .location-item a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.c5 .locations-menu .locations-div .locations-buttons .location-item a span {
+  font-family: "dinnextstencil-bold";
+}
+.c5 .locations-menu .locations-div .locations-buttons .location-item a p {
+  text-align: left;
+}
+.c5 .locations-menu .locations-div .locations-buttons .location-item.is-active {
+  border: 0.15rem solid #FAB518;
+}
+.c5 .locations-menu .locations-div .locations-buttons .location-item:hover {
+  background-color: #1b1b1b;
+}
+.c5 .locations-description .description-item {
+  display: none;
+}
+.c5 .locations-description .description-item.is-active {
+  display: block;
+}
+.c5 .locations-description .description-item .location-image {
+  width: 25rem;
+}
+
 *, body {
   margin: 0;
   padding: 0;

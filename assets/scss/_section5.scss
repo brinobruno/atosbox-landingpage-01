@@ -1,0 +1,93 @@
+@import "./fonts";
+@import "./variables";
+
+.c5 {
+    height: 100vh;
+    background-color: $background-plain;
+
+    .c5-title, .c5-description {
+        text-align: center;
+    }
+
+    .c5-title {
+        font-family: $dinnextstencil-bold;
+        font-size: 3.5rem;
+        padding-top: 5rem;
+    }
+
+    .c5-description {
+        font-size: 1.85rem;
+        font-family: $dinnextstencil-regular;
+
+        &:nth-child(3) {
+            padding-bottom: 2.35rem;
+        }
+    }
+
+
+    span {
+        color: $primary-color;
+    }
+
+    .locations-menu {
+        display: flex;
+
+        .locations-div {
+
+            .locations-buttons {
+
+                .location-item {
+                    cursor: pointer;
+                    list-style: none;
+                    @include linearBackgroundAlt();
+                    margin: 2.25rem 5rem;
+                    width: 23rem;
+                    height: 8rem;
+                    border-radius: 1.5rem;
+                    border: 0.15rem solid $background-plain;
+
+                    a {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        
+                        span {
+                            font-family: $dinnextstencil-bold;
+                        }
+
+                        p {
+                            text-align: left;
+                        }
+                    }
+
+                    &.is-active {
+                        border: 0.15rem solid $primary-color;
+                        
+                    }
+
+                    &:hover {
+                        background-color: rgb(27, 27, 27);
+                    }
+                }
+            }
+        }
+    }
+
+//box-shadow somewhere
+
+    .locations-description {
+
+        .description-item {
+            display: none;
+
+            &.is-active {
+                display: block;
+            }
+
+            .location-image {
+                width: 25rem;
+            }
+        }
+
+    }
+}
