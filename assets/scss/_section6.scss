@@ -1,2 +1,71 @@
 @import "./fonts";
 @import "./variables";
+
+.c6 {
+    height: 145vh;
+    @include linearBackground();
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 0 8rem;
+
+    .c5-title, .c5-description {
+        text-align: center;
+    }
+
+    .c5-title {
+        font-family: $dinnextstencil-bold;
+        font-size: 3.5rem;
+    }
+
+    .c5-description {
+        font-size: 1.55rem;
+        font-family: $dinnextstencil-regular;
+    }
+
+    span {
+        color: $primary-color;
+    }
+
+        .faq-accordion {
+            width: 75%;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+
+            .faq-content-container {
+                margin: 1rem 2rem;
+
+                &.active .faq-answer {
+                    //mudança de ícone?
+                    height: 12.8rem;
+                    padding: 0.5rem;
+                }
+            }
+
+                .faq-label {
+                    color: $main-text-color;
+                    font-family: $dinnextstencil-regular;
+                    font-size: 1.35rem;
+                    
+                    padding: 1rem;
+                    @include linearBackgroundAlt();
+                    cursor: pointer;
+
+                }
+
+                .faq-answer {
+                    
+                    background-color: $background-plain;
+                    height: 0;
+                    overflow: hidden;
+                    overflow-y: auto;
+                    transition: 0.4s;
+                    font-size: 1.15rem;
+                }
+
+
+        }
+
+}

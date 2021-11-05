@@ -415,6 +415,59 @@
   font-family: "dinnextstencil-heavy";
   src: url(../fonts/DINNextStencil-Heavy.ttf);
 }
+.c6 {
+  height: 145vh;
+  background: linear-gradient(to bottom, #111111, #343434);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 0 8rem;
+}
+.c6 .c5-title, .c6 .c5-description {
+  text-align: center;
+}
+.c6 .c5-title {
+  font-family: "dinnextstencil-bold";
+  font-size: 3.5rem;
+}
+.c6 .c5-description {
+  font-size: 1.55rem;
+  font-family: "dinnextstencil-regular";
+}
+.c6 span {
+  color: #FAB518;
+}
+.c6 .faq-accordion {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.c6 .faq-accordion .faq-content-container {
+  margin: 1rem 2rem;
+}
+.c6 .faq-accordion .faq-content-container.active .faq-answer {
+  height: 12.8rem;
+  padding: 0.5rem;
+}
+.c6 .faq-accordion .faq-label {
+  color: #EBEBEB;
+  font-family: "dinnextstencil-regular";
+  font-size: 1.35rem;
+  padding: 1rem;
+  background: linear-gradient(to bottom, #343434, #111111);
+  cursor: pointer;
+}
+.c6 .faq-accordion .faq-answer {
+  background-color: #111111;
+  height: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  transition: 0.4s;
+  font-size: 1.15rem;
+}
+
 *, body {
   margin: 0;
   padding: 0;
