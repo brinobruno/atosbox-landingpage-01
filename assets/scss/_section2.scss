@@ -2,7 +2,7 @@
 @import "./variables";
 
 .c2 {
-    height: 122vh;
+    height: 200%;
     @include linearBackground ();
 
     h3 {
@@ -99,7 +99,7 @@
         }
         
         .specialist-author {
-            padding-top: 1.5rem;
+            padding: 1.5rem 0 3rem;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
