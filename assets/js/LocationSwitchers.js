@@ -1,22 +1,22 @@
 //get the switchers
 
-    window.onload = () => {
-        const locationSwitchers = document.querySelectorAll('[data-switcher]')
+window.onload = () => {
+    const locationSwitchers = document.querySelectorAll('[data-switcher]')
     
-        for (let counter = 0; counter < locationSwitchers.length; counter++) {
-            const switcher = locationSwitchers[counter]
-            const locationId = switcher.dataset.item
-            // "data-ITEM"
+    for (let counter = 0; counter < locationSwitchers.length; counter++) {
+        const switcher = locationSwitchers[counter]
+        const locationId = switcher.dataset.item
+        // "data-ITEM"
     
-            switcher.addEventListener('click', () => {
-                document.querySelector('.locations-buttons .location-item.is-active').classList.remove('is-active');
-                switcher.parentNode.classList.add('is-active');
-                //parentNode = li
+        switcher.addEventListener('click', () => {
+            document.querySelector('.locations-buttons .location-item.is-active').classList.remove('is-active');
+            switcher.parentNode.classList.add('is-active');
+            //parentNode = li
     
-                switchLocation(locationId)
-            })
-        }
+            switchLocation(locationId)
+        })
     }
+}
 
 //apply the switchers
 
