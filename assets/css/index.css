@@ -403,6 +403,18 @@
   padding-top: 1.25rem;
 }
 
+@font-face {
+  font-family: "dinnextstencil-regular";
+  src: url(../fonts/DINNextStencil-Regular.ttf);
+}
+@font-face {
+  font-family: "dinnextstencil-bold";
+  src: url(../fonts/DINNextStencil-Bold.ttf);
+}
+@font-face {
+  font-family: "dinnextstencil-heavy";
+  src: url(../fonts/DINNextStencil-Heavy.ttf);
+}
 *, body {
   margin: 0;
   padding: 0;
