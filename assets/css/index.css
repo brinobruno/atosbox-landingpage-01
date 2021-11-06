@@ -424,14 +424,14 @@
   align-content: center;
   padding: 3rem 8rem 6rem 8rem;
 }
-.c6 .c5-title, .c6 .c5-description {
+.c6 .c6-title, .c6 .c6-description {
   text-align: center;
 }
-.c6 .c5-title {
+.c6 .c6-title {
   font-family: "dinnextstencil-bold";
   font-size: 3.5rem;
 }
-.c6 .c5-description {
+.c6 .c6-description {
   font-size: 1.55rem;
   font-family: "dinnextstencil-regular";
   padding-bottom: 2rem;
@@ -477,6 +477,88 @@
   overflow-y: auto;
   transition: 0.4s;
   font-size: 1.15rem;
+}
+
+@font-face {
+  font-family: "dinnextstencil-regular";
+  src: url(../fonts/DINNextStencil-Regular.ttf);
+}
+@font-face {
+  font-family: "dinnextstencil-bold";
+  src: url(../fonts/DINNextStencil-Bold.ttf);
+}
+@font-face {
+  font-family: "dinnextstencil-heavy";
+  src: url(../fonts/DINNextStencil-Heavy.ttf);
+}
+.c7 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4rem;
+  background-color: #111111;
+}
+.c7 .c7-title, .c7 .c7-description {
+  text-align: center;
+}
+.c7 .c7-title {
+  font-family: "dinnextstencil-bold";
+  font-size: 3.5rem;
+}
+.c7 .c7-description {
+  font-size: 1.85rem;
+  font-family: "dinnextstencil-regular";
+  margin-bottom: 1.8rem;
+}
+.c7 span {
+  color: #FAB518;
+}
+.c7 .catch-phrase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.65rem;
+  padding-bottom: 3rem;
+}
+.c7 .catch-phrase h3 {
+  font-size: 5.7rem;
+  font-family: "dinnextstencil-heavy";
+}
+.c7 .catch-phrase img {
+  width: 15.59rem;
+}
+.c7 #learn-more-button {
+  font-family: "dinnextstencil-bold";
+  color: #EBEBEB;
+  font-size: 1.45rem;
+  width: 21.3rem;
+  height: 3.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.01);
+  border: 0.15rem solid #FAB518;
+  border-radius: 1.125rem;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 4rem;
+}
+.c7 #learn-more-button:hover {
+  background-color: #111111;
+  border: #111111;
+  transition: 0.4s;
+}
+.c7 #learn-more-button:hover {
+  background-color: #2a2a2a;
+}
+.c7 .social-icons {
+  display: flex;
+  gap: 2.15rem;
+}
+.c7 .social-icons img {
+  width: 4.15rem;
 }
 
 *, body {

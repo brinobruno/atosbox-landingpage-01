@@ -1,0 +1,68 @@
+@import "./fonts";
+@import "./variables";
+
+.c7 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem;
+    background-color: $background-plain;
+
+    .c7-title, .c7-description {
+        text-align: center;
+    }
+
+    .c7-title {
+        font-family: $dinnextstencil-bold;
+        font-size: 3.5rem;
+    }
+
+    .c7-description {
+        font-size: 1.85rem;
+        font-family: $dinnextstencil-regular;
+        margin-bottom: 1.8rem;
+    }
+
+    span {
+        color: $primary-color;
+    }
+
+    .catch-phrase {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2.65rem;
+        padding-bottom: 3rem;
+
+        h3 {
+            font-size: 5.7rem;
+            font-family: $dinnextstencil-heavy;
+        }
+
+        img {
+            width: 15.59rem;
+
+        }
+    }
+
+    #learn-more-button {
+        @include learnMoreButton();
+        margin-bottom: 4rem;
+        
+        &:hover {
+            background-color: rgb(42, 42, 42);
+        }
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 2.15rem;
+
+        img {
+            width: 4.15rem;
+        }
+    }
+
+}
