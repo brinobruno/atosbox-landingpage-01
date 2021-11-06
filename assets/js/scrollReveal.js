@@ -11,8 +11,9 @@ const scrollReveal = ScrollReveal({
     .c3 .c3-left, .c3 .c3-right,
     .c4 .c4-title, .c4 .about-benefits, .c4 a,
     .c5 .c5-title, .c5 .c5-description, .c5 .locations-menu, .c5 .locations-buttons, .c5 .locations-description,
-    .c6 .c6-title, .c6 .c6-description, .c6 .faq-accordion
-    
+    .c6 .c6-title, .c6 .c6-description, .c6 .faq-accordion,
+    .c7 .c7-title, .c7 .c7-description, .c7 .catch-phrase, .c7 a, .c7 .social-icons,
+    .footer-container img, .footer-container p
     `,
     { interval: 100 }
   )

@@ -1,0 +1,29 @@
+@import "./fonts";
+@import "./variables";
+
+footer {
+
+    .footer-container {
+        height: 35vh;
+        background-color: $primary-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 29rem;
+
+        img {
+            width: 12rem;
+            filter: brightness(50%);
+            padding-top: 1rem;
+        }
+
+        p {
+            color: $background-plain;
+            font-size: 1.15rem;
+            font-family: $dinnextstencil-bold;
+            text-align: center;
+            padding-bottom: 1rem;
+        }
+    }
+}

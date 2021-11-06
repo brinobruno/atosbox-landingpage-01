@@ -561,6 +561,40 @@
   width: 4.15rem;
 }
 
+@font-face {
+  font-family: "dinnextstencil-regular";
+  src: url(../fonts/DINNextStencil-Regular.ttf);
+}
+@font-face {
+  font-family: "dinnextstencil-bold";
+  src: url(../fonts/DINNextStencil-Bold.ttf);
+}
+@font-face {
+  font-family: "dinnextstencil-heavy";
+  src: url(../fonts/DINNextStencil-Heavy.ttf);
+}
+footer .footer-container {
+  height: 35vh;
+  background-color: #FAB518;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 29rem;
+}
+footer .footer-container img {
+  width: 12rem;
+  filter: brightness(50%);
+  padding-top: 1rem;
+}
+footer .footer-container p {
+  color: #111111;
+  font-size: 1.15rem;
+  font-family: "dinnextstencil-bold";
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
 *, body {
   margin: 0;
   padding: 0;
