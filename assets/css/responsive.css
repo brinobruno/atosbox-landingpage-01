@@ -396,11 +396,18 @@
     }
 }
 
+@media (max-width: 825px) {
+    .c2 blockquote cite img {
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
 @media (max-width: 815px) {
 
     .c5 .locations-menu .locations-div .locations-buttons .location-item {
         width: 14rem;
-        height: 9rem;
+        height: 7rem;
     }
 
     .c5 .locations-description .description-item .location-image{
@@ -439,6 +446,18 @@
 }
 
 @media (max-width: 768px) {
+    .c2 .specialist-quote {
+        margin: 1.5rem 3.7rem;
+    }
+
+    .c2 .specialist-quote p {
+        font-size: 1.55rem;
+    }
+
+    .c5 .c5-description {
+        font-size: 1.2rem;
+    }
+
     .c5 .locations-menu .locations-div .locations-buttons .location-item {
         width: 15rem;
         height: 6.9rem;
@@ -456,9 +475,13 @@
 }
 
 @media (max-width: 711px) {
+    .c2 .disclaimer {
+        padding: 1.75rem 4rem;
+    }
+
     .c5 {
         padding: 0 2rem;
-        height: 115vh;
+        height: 100vh;
     }
 
     .c5 .locations-menu {
@@ -478,8 +501,8 @@
     }
 
     .c5 .locations-menu .locations-div .locations-buttons .location-item {
-        width: 11.5rem;
-        height: 10rem;
+        width: 12.5rem;
+        height: 8rem;
         margin: 0.25rem;
     }
     
@@ -498,6 +521,10 @@
         font-size: 1.15rem;
     }
 
+    .c6 .faq-accordion .faq-label {
+        padding: 0.85rem;
+    }
+
     footer .footer-container {
         padding: 0 2rem;
     }
@@ -505,15 +532,84 @@
     footer .footer-container p {
         font-size: 1rem;
     }
+
+}
+
+/* -------------------------------------- */
+
+@media (max-width: 705px) {
+    .c2 h3 {
+        font-size: 2.45rem;
+        text-align: center;
+    }
+
+    .c4 .c4-title  {
+        font-size: 3rem
+    }
+
+    .c4 .c4-title span {
+        font-size: 3rem
+    }
+
+    .c5 .c5-title  {
+        font-size: 3rem
+    }
+
+    .c5 .c5-description {
+        font-size: 1.15rem;
+    }
+
+    .c6 .c6-title  {
+        font-size: 3rem
+    }
+
+    .c6 .c6-description {
+        font-size: 1.15rem;
+    }
+
+    .c7 .catch-phrase img {
+        width: 8.95rem;
+    }
+
+    .c7 .catch-phrase h3 {
+        font-size: 3.25rem;
+    }
+
+    .c7 .c7-title {
+        font-size: 3rem;
+    }
+
+    .c7 .c7-title span {
+        font-size: 3rem;
+    }
+
+    .c7 .social-icons img {
+        width: 2.45rem;
+    }
+}
+
+@media (max-width: 675px) {
+    .c2 .swiper {
+        margin: 0 2rem 0 2rem;
+    }
 }
 
 @media (max-width: 655px) {
+    .c4 {
+        padding: 0 2rem;
+    }
+
+    .c4 .about-benefits .benefit-item img {
+        width: 6.25rem;
+        padding-bottom: 1rem;
+    }
+
     .c5 {
         padding: 0 1.35rem;
     }
     
     .c5 .locations-menu .locations-div .locations-buttons .location-item {
-        width: 10.5rem;
+        width: 12rem;
     }
 
     .c5 .locations-description .description-item .location-image{
@@ -527,15 +623,41 @@
     }
 
     .c5 .locations-menu .locations-div .locations-buttons .location-item a p {
-        font-size: 0.95rem;
+        font-size: 1.10rem;
     }
 
     .c5 .locations-menu .locations-div .locations-buttons .location-item a span {
-        font-size: 0.95rem
+        font-size: 1.15rem
     }
 }
 
 @media (max-width: 610px) {
+    .c1 .text #learn-more-button {
+        font-size: 1.15rem;
+        width: 16.85rem;
+        height: 3.27rem;
+    }
+
+    .c4 #learn-more-button {
+        font-size: 1.15rem;
+        width: 16.85rem;
+        height: 3.27rem;
+    }
+
+    .c7 #learn-more-button {
+        font-size: 1.15rem;
+        width: 16.85rem;
+        height: 3.27rem;
+    }
+
+    .c1 .text .landing-title {
+        font-size: 2.5rem;
+    }
+
+    .c1 .text .p-space {
+        font-size: 1.15rem;
+    }
+
     .c5 .locations-menu .locations-div .locations-buttons .location-item {
         width: 10.5rem;
     }
@@ -549,9 +671,57 @@
         max-width: 32.05rem;
         font-size: 1.15rem;
     }
+
+    .c5 .locations-menu .locations-div .locations-buttons .location-item a p {
+        font-size: 1.02rem;
+    }
+
+}
+
+@media (max-width: 610px) {
+    .c4 {
+        height: 115vh;
+    }
+
+    .c4 .c4-title  {
+        font-size: 2.5rem
+    }
+
+    .c4 .c4-title span {
+        font-size: 2.5rem
+    }
+
+    .c4 .about-benefits {
+        flex-direction: column;
+        padding-bottom: 0.25rem;
+    }
+
+    .c4 .about-benefits .benefit-item p {
+        padding-bottom: 1.25rem;
+    }
 }
 
 @media (max-width: 545px) {
+    .c2 .specialist-quote {
+        margin: 1.5rem 2.8rem;
+    }
+
+    .c2 .specialist-quote p {
+        font-size: 1.25rem;
+    }
+
+    .c2 .specialist-quote .specialist-author p {
+        font-size: 1.35rem;
+    }
+
+    .c2 .specialist-quote .specialist-author span {
+        font-size: 1.35rem;
+    }
+
+    .c4 {
+        padding: 0 1.5rem;
+    }
+
     .c5 .locations-menu .locations-div .locations-buttons .location-item {
         width: 10.5rem;
         margin: 0.1rem;
@@ -567,12 +737,44 @@
         font-size: 1.05rem;
     }
 
+    .c5 .locations-menu .locations-div .locations-buttons .location-item a p {
+        font-size: 0.95rem;
+    }
+
+    .c5 .locations-menu .locations-div .locations-buttons .location-item a span {
+        font-size: 1.15rem
+    }
+
     footer .footer-container {
         height: 38vh;
+    }
+
+    .c7 {
+        padding: 0 2rem;
     }
 }
 
 @media (max-width: 499px) {
+    .c2 .disclaimer {
+        padding: 1.75rem 2.5rem 0.7rem;
+    }
+
+    .c3 {
+        background-position: right;
+    }
+
+    .c3 .c3-right .right-up p {
+        font-size: 2rem;
+    }
+
+    .c3 .c3-right .right-up span {
+        font-size: 2rem;
+    }
+
+    .c5 {
+        height: 100vh;
+    }
+
     .c5 .locations-menu .locations-div .locations-buttons .location-item a {
         padding: 1.25rem 0.5rem;
     }
@@ -593,19 +795,204 @@
 }
 
 @media (max-width: 475px) {
+    .c7 .catch-phrase {
+        gap: 1.7rem;
+    }
+
+    .c7 .catch-phrase img {
+        width: 6.7rem;
+    }
+
+    .c7 .catch-phrase h3 {
+        font-size: 2.45rem;
+    }
+
     footer .footer-container {
         height: 44vh;
         padding: 0 1.1rem;
     }
 }
 
-@media (max-width: 361px) {
+@media (max-width: 455px) {
+    .c5 .locations-description .description-item .location-image{
+        width: 24.15rem;
+    }
+
+    .c5 .locations-description .description-item .location-description {
+        width: 24.15rem;
+        max-width: 24.15rem;
+        font-size: 1.05rem;
+    }
+}
+
+@media (max-width: 421px) {
+    .c2 .specialist-quote {
+        margin: 0 1.65rem;
+    }
+
+    .c2 .specialist-quote p {
+        font-size: 1.15rem;
+    }
+
+    .c2 .specialist-author {
+        font-size: 1.05rem;
+    }
+
+    .c5 {
+        padding: 0 0.8rem;
+    }
+
+    .c5 .locations-description .description-item .location-image{
+        width: 24.15rem;
+    }
+
+    .c5 .locations-description .description-item .location-description {
+        width: 24.15rem;
+        max-width: 24.15rem;
+    }
+
+    .c6 .faq-accordion {
+        width: 120%;
+    }
+}
+
+/* adjustments for cellphone specifically */
+@media (max-width: 415px) {
+    .c1 .text {
+        padding-top: 3rem;
+    }
+
+    .c4 .about-benefits .benefit-item img {
+        width: 5.25rem;
+        padding-bottom: 0.65rem;
+    }
+
+    .c4 .about-benefits .benefit-item p {
+        font-size: 0.85rem;
+    }
+
+    .c5 {
+        height: 115vh;
+    }
+
     footer .footer-container {
-        height: 48vh;
+        height: 50vh;
         padding: 0 1.1rem;
     }
 
     footer .footer-container p {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
 }
+
+@media (max-width: 419px) {
+    .c5 .locations-description .description-item .location-image {
+        width: 21.55rem;
+    }
+
+    .c5 .locations-description .description-item .location-description {
+        width: 21.55rem;
+        max-width: 21.55rem;
+    }
+
+    @media (max-width: 675px) {
+        .c2 .swiper {
+            margin: 0 0.3rem 0 0.3rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .c5 .locations-description .description-item .location-image{
+        width: 19.95rem;
+    }
+
+    .c5 .locations-description .description-item .location-description {
+        width: 19.95rem;
+        max-width: 19.95rem;
+    }
+}
+
+/* titles only */
+@media (max-width: 400px) {
+    .c1 .text .landing-title {
+        font-size: 2.25rem;
+    }
+
+    .c2 h3 {
+        font-size: 2.25rem;
+        text-align: center;
+    }
+
+    .c4 .c4-title  {
+        font-size: 2.05rem;
+    }
+
+    .c4 .c4-title span {
+        font-size: 2.05rem;
+    }
+
+    .c5 .c5-title  {
+        font-size: 2.25rem;
+    }
+
+    .c5 .c5-description {
+        font-size: 1rem;
+    }
+
+    .c6 .c6-title  {
+        font-size: 2.25rem;
+    }
+
+    .c6 .c6-description {
+        font-size: 1rem;
+    }
+
+    .c7 .catch-phrase img {
+        width: 6.9rem;
+    }
+
+    .c7 .catch-phrase h3 {
+        font-size: 2.4rem;
+    }
+
+    .c7 .c7-title {
+        font-size: 2.25rem;
+    }
+
+    .c7 .c7-title span {
+        font-size: 2.25rem;
+    }
+
+    .c7 .c7-description {
+        font-size: 1.15rem;
+    }
+
+    .c7 .social-icons img {
+        width: 2.45rem;
+    }
+}
+
+@media (max-width: 361px) {
+    .c6 .faq-accordion {
+        width: 130%;
+    }
+
+    .c7 .catch-phrase {
+        gap: 0.75rem;
+    }
+
+}
+
+@media (max-width: 340px) {
+    .c7 .catch-phrase img {
+        width: 4.7rem;
+    }
+
+    .c7 .catch-phrase h3 {
+        font-size: 1.84rem;
+    }
+    
+    .c7 .social-icons img {
+        width: 2rem;
+    }
+}}
