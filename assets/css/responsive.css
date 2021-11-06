@@ -1,0 +1,611 @@
+@media (max-width: 1700px) {
+    footer .footer-container {
+        padding: 0 14rem;
+    }
+
+    footer .footer-container img {
+        width: 10rem;
+    }
+}
+
+
+
+@media (max-width: 1500px) {
+    .c2 .specialist-quote {
+        margin: 1.5rem 8rem;
+    }
+
+    .c2 .specialist-quote p {
+        font-size: 2.25rem;
+    }
+
+    .c3 .c3-right {
+        padding: 0 8rem;
+    }
+
+    .c3 .c3-right .right-up {
+        font-size: 2.45rem;
+    }
+
+    .c3 .c3-right .right-down {
+        font-size: 1.75rem;
+    }
+
+    .c4 .about-benefits {
+        padding-bottom: 3rem;
+    }
+
+    .c4 .about-benefits .benefit-item {
+        padding: 0 2rem;
+    }
+
+    .c4 .about-benefits .benefit-item img {
+        width: 10rem;
+    }
+
+    .c4 .about-benefits .benefit-item p {
+        font-size: 1.15rem;
+    }
+
+}
+
+@media (max-width: 1440px) {
+    .c3 .c3-left img {
+        flex-shrink: 0;
+        width: 50vw;
+    } 
+
+    .c4 .about-benefits .benefit-item {
+        padding: 0 2rem;
+    }
+
+    .c4 .about-benefits .benefit-item img {
+        width: 10rem;
+    }
+
+    .c4 .about-benefits .benefit-item p {
+        font-size: 1.15rem;
+    }
+
+    .c7 .social-icons img {
+        width: 3.45rem;
+    }
+
+    .c6 .faq-accordion {
+        width: 79%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .c1 img {
+        width: 6.8rem;
+    }
+
+    .c1 .text {
+        padding-top: 7.56rem;
+    }
+
+    .c2 .disclaimer {
+        padding: 1.75rem 6rem;
+    }
+
+    .c3 .c3-left img {
+        flex-shrink: 0;
+        width: 55vw;
+    } 
+    
+    .c3 .c3-right {
+        padding: 0 3rem;
+    }
+
+    .c3 .c3-right .right-up p{
+        font-size: 2.25rem;
+    }
+
+    .c3 .c3-right .right-up span {
+        font-size: 2.25rem;
+    }
+
+    .c3 .c3-right .right-down p {
+        font-size: 1.25rem;
+    }
+
+    .c6 .faq-accordion {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1220px) {
+    .c5 .c5-description {
+        font-size: 1.35rem;
+    }
+
+    .c5 .locations-menu .locations-div .locations-buttons .location-item {
+        width: 18rem;
+        height: 7.3rem;
+    }
+
+    .c5 .locations-menu .locations-div .locations-buttons .location-item a p {
+        font-size: 1rem;
+    }
+
+    .c5 .locations-menu .locations-div .locations-buttons .location-item a span {
+        font-size: 1.30rem;
+    }
+
+    .c5 .locations-description .description-item .location-image{
+        width: 40rem;
+    }
+
+    .c5 .locations-description .description-item .location-description{
+        width: 40rem;
+        max-width: 40rem;
+        font-size: 1.15rem;
+    }
+
+
+}
+
+@media (max-width: 1175px) {
+    footer .footer-container {
+        padding: 0 6rem;
+    }
+}
+
+@media (max-width: 1146px) {
+    .c3 .c3-right {
+        padding: 0rem 2rem 3rem;
+    }
+
+    .c3 .c3-right .right-up p{
+        font-size: 1.9rem;
+    }
+
+    .c3 .c3-right .right-up span {
+        font-size: 1.9rem;
+    }
+
+    .c3 .c3-right .right-down p {
+        font-size: 1.15rem;
+    }
+
+    .c4 {
+        margin-top: -4rem;
+    }
+
+    .c6 .faq-accordion {
+        width: 98%;
+    }
+}
+
+@media (max-width: 1040px) {
+    .c4 {
+        margin-top: -11rem;
+    }
+
+    .c5 .locations-menu .locations-div .locations-buttons .location-item {
+        width: 15rem;
+        height: 6.9rem;
+    }
+
+    .c5 .locations-description .description-item .location-image{
+        width: 37rem;
+    }
+
+    .c5 .locations-description .description-item .location-description{
+        width: 37rem;
+        max-width: 37rem;
+        font-size: 1.15rem;
+    }
+
+    .c7 .catch-phrase img {
+        width: 13.25rem;
+    }
+
+    .c7 .catch-phrase h3 {
+        font-size: 4.8rem;
+    }
+
+    .c7 .social-icons img {
+        width: 2.95rem;
+    }
+}
+
+@media (max-width: 940px) {
+    .c1 .text {
+        padding-top: 6.5rem;
+    }
+    
+    .c1 .text .landing-title {
+        font-size: 3.2rem;
+    }
+
+    .c1 .text p {
+        font-size: 1.35rem;
+    }
+
+    .c1 .text .p-space {
+        padding: 0.5rem 0 2rem 0;
+    }
+}
+
+@media (max-width: 988px) {
+    .c3 .c3-right {
+        padding: 0rem 2rem 9rem;
+    }
+
+    .c3 .c3-right .right-up p{
+        font-size: 1.5rem;
+    }
+
+    .c3 .c3-right .right-up span {
+        font-size: 1.5rem;
+    }
+
+    .c3 .c3-right .right-down p {
+        font-size: 1rem;
+    }
+
+    .c6 {
+        padding: 3rem 5rem 6rem 5rem;
+    }
+}
+
+@media (max-width: 988px) {
+    .c4 .about-benefits {
+        padding: 2rem 0 2rem;
+    }
+
+    .c4 .about-benefits .benefit-item {
+        padding: 0 0.85rem;
+    }
+
+    .c5 .locations-menu .locations-div .locations-buttons .location-item {
+        width: 16rem;
+        height: 6.9rem;
+    }
+
+    .c5 .locations-description .description-item .location-image{
+        width: 33rem;
+    }
+
+    .c5 .locations-description .description-item .location-description{
+        width: 33rem;
+        max-width: 33rem;
+        font-size: 1.15rem;
+    }
+
+
+}
+
+@media (max-width: 910px) {
+    footer .footer-container {
+        padding: 0 3rem;
+    }
+
+    footer .footer-container img {
+        width: 8rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .c2 .specialist-quote {
+        margin: 1.5rem 5.5rem;
+    }
+
+    .c2 .specialist-quote p {
+        font-size: 2rem;
+    }
+
+    .c3 {
+        background-image: linear-gradient(to bottom, rgba(10, 10, 10, 0.8), rgba(19, 19, 19, 0.5)),
+        url("../img-stock/fundoPaisagemC3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0 3rem;
+    }
+
+    .c3 .c3-left img {
+        display: none;
+    }
+    
+    .c3 .c3-right {
+        padding: 0;
+    }
+
+    .c3 .c3-right .right-up p{
+        font-size: 2.5rem;
+    }
+
+    .c3 .c3-right .right-up span {
+        font-size: 2.5rem;
+    }
+
+    .c3 .c3-right .right-down p {
+        font-size: 1.25rem;
+    }
+
+    .c4 {
+        margin-top: 0rem;
+        padding-top: 0.5rem;
+    }
+
+    .c4 .c4-title {
+        font-size: 3rem;
+    }
+
+    .c4 span {
+        font-size: 3rem;
+    }
+
+    .c4 .about-benefits .benefit-item p {
+        font-size: 1.05rem;
+    }
+
+    .c5 .locations-menu .locations-div .locations-buttons .location-item {
+        width: 16rem;
+        height: 6.9rem;
+    }
+
+    .c5 .locations-description .description-item .location-image{
+        width: 29rem;
+    }
+
+    .c5 .locations-description .description-item .location-description{
+        width: 29rem;
+        max-width: 29rem;
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-width: 856px) {
+    .c1 .text .landing-title {
+        font-size: 3rem;
+    }
+
+    .c1 .text p {
+        font-size: 1.25rem;
+    }
+
+    .c5 .c5-title {
+        font-size: 4rem;
+    }
+    
+    .c5 .c5-description {
+        font-size: 1.35rem;
+    }
+
+    .c6 {
+        padding: 3rem 4rem 6rem 4rem;
+    }
+    
+    .c6 .c6-description {
+        font-size: 1.35rem;
+    }
+
+    .c7 .c7-title {
+        font-size: 3.8rem
+    }
+
+    .c7 span {
+        font-size: 3.8rem
+    }
+
+    .c7 .c7-description {
+        font-size: 1.65rem;
+    }
+}
+
+@media (max-width: 815px) {
+
+    .c5 .locations-menu .locations-div .locations-buttons .location-item {
+        width: 14rem;
+        height: 9rem;
+    }
+
+    .c5 .locations-description .description-item .location-image{
+        width: 26rem;
+    }
+
+    .c5 .locations-description .description-item .location-description{
+        width: 26rem;
+        max-width: 26rem;
+        font-size: 1.15rem;
+    }
+
+    .c6 {
+        padding: 3rem 2rem 6rem 2rem;
+    }
+
+    .c6 .faq-accordion {
+        width: 100%;
+    }
+
+    .c6 .faq-accordion .faq-label {
+        font-size: 1.15rem;
+    }
+}
+
+
+@media (max-width: 798px) {
+    .c1 .text .landing-title {
+        font-size: 2.8rem;
+    }
+
+    .c1 .text p {
+        font-size: 1.25rem;
+        max-width: 73%;
+    }
+}
+
+@media (max-width: 768px) {
+    .c5 .locations-menu .locations-div .locations-buttons .location-item {
+        width: 15rem;
+        height: 6.9rem;
+    }
+
+    .c5 .locations-description .description-item .location-image{
+        width: 24rem;
+    }
+
+    .c5 .locations-description .description-item .location-description{
+        width: 23rem;
+        max-width: 23rem;
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-width: 711px) {
+    .c5 {
+        padding: 0 2rem;
+        height: 115vh;
+    }
+
+    .c5 .locations-menu {
+        flex-direction: column;
+    }
+
+    .c5 .locations-menu .locations-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex: 1 1;
+    }
+
+    .c5 .locations-menu .locations-buttons .location-item:first-child {
+        margin-top: 0;
+    }
+
+    .c5 .locations-menu .locations-div .locations-buttons .location-item {
+        width: 11.5rem;
+        height: 10rem;
+        margin: 0.25rem;
+    }
+    
+    .c5 .locations-description .description-item.is-active{
+        padding-top: 2rem;
+        align-items: center;
+    }
+
+    .c5 .locations-description .description-item .location-image{
+        width: 38.4rem;
+    }
+
+    .c5 .locations-description .description-item .location-description {
+        width: 38.4rem;
+        max-width: 38.4rem;
+        font-size: 1.15rem;
+    }
+
+    footer .footer-container {
+        padding: 0 2rem;
+    }
+
+    footer .footer-container p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 655px) {
+    .c5 {
+        padding: 0 1.35rem;
+    }
+    
+    .c5 .locations-menu .locations-div .locations-buttons .location-item {
+        width: 10.5rem;
+    }
+
+    .c5 .locations-description .description-item .location-image{
+        width: 35.05rem;
+    }
+
+    .c5 .locations-description .description-item .location-description {
+        width: 35.05rem;
+        max-width: 35.05rem;
+        font-size: 1.15rem;
+    }
+
+    .c5 .locations-menu .locations-div .locations-buttons .location-item a p {
+        font-size: 0.95rem;
+    }
+
+    .c5 .locations-menu .locations-div .locations-buttons .location-item a span {
+        font-size: 0.95rem
+    }
+}
+
+@media (max-width: 610px) {
+    .c5 .locations-menu .locations-div .locations-buttons .location-item {
+        width: 10.5rem;
+    }
+
+    .c5 .locations-description .description-item .location-image{
+        width: 32.05rem;
+    }
+
+    .c5 .locations-description .description-item .location-description {
+        width: 32.05rem;
+        max-width: 32.05rem;
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-width: 545px) {
+    .c5 .locations-menu .locations-div .locations-buttons .location-item {
+        width: 10.5rem;
+        margin: 0.1rem;
+    }
+
+    .c5 .locations-description .description-item .location-image{
+        width: 28.55rem;
+    }
+
+    .c5 .locations-description .description-item .location-description {
+        width: 28.55rem;
+        max-width: 28.55rem;
+        font-size: 1.05rem;
+    }
+
+    footer .footer-container {
+        height: 38vh;
+    }
+}
+
+@media (max-width: 499px) {
+    .c5 .locations-menu .locations-div .locations-buttons .location-item a {
+        padding: 1.25rem 0.5rem;
+    }
+
+    .c5 .locations-description .description-item.is-active{
+        padding-top: 1.35rem;
+    }
+
+    .c5 .locations-description .description-item .location-image{
+        width: 26.15rem;
+    }
+
+    .c5 .locations-description .description-item .location-description {
+        width: 26.15rem;
+        max-width: 26.15rem;
+        font-size: 1.05rem;
+    }
+}
+
+@media (max-width: 475px) {
+    footer .footer-container {
+        height: 44vh;
+        padding: 0 1.1rem;
+    }
+}
+
+@media (max-width: 361px) {
+    footer .footer-container {
+        height: 48vh;
+        padding: 0 1.1rem;
+    }
+
+    footer .footer-container p {
+        font-size: 0.9rem;
+    }
+}
