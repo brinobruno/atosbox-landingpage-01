@@ -901,7 +901,27 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
+    .c1 {
+        height: 97vh;
+    }
+
+    .c1 img {
+        width: 5.45rem;
+    }
+
+    .c2 h3 {
+        padding-bottom: 0.4rem;
+    }
+
+    .c4 .about-benefits {
+        padding-top: 1rem;
+    }
+
+    .c4 .about-benefits .benefit-item img {
+        width: 3.5rem;
+    }
+
     .c5 .locations-description .description-item .location-image{
         width: 19.95rem;
     }
@@ -909,6 +929,10 @@
     .c5 .locations-description .description-item .location-description {
         width: 19.95rem;
         max-width: 19.95rem;
+    }
+
+    footer .footer-container {
+        height: 54vh;
     }
 }
 
