@@ -1020,3 +1020,9 @@
         width: 2rem;
     }
 }}
+
+@media (max-width: 340px) {
+    .c1 .text .p-space {
+        font-size: 0.85rem;
+    }
+}
