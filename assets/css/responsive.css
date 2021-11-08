@@ -1026,3 +1026,89 @@
         font-size: 0.85rem;
     }
 }
+
+/* HEIGHT ISSUES */
+
+@media (max-height: 800px) {
+    .c1 .text {
+        padding-top: 3.65rem;
+    }
+
+    .c7 {
+        height: 110vh;
+    }
+
+    .c7 .social-icons img {
+        width: 2.45rem;
+    }
+
+    footer .footer-container {
+        height: 53vh;
+    }
+}
+
+@media (max-height: 720px) {
+    .c4 {
+        height: 115vh;
+    }
+
+    .c5 {
+        height: 125vh;
+    }
+
+    .c7 {
+        height: 120vh;
+    }
+}
+
+@media (max-height: 670px) {
+    .c1 img {
+        width: 6rem;
+    }
+
+    .c1 .text {
+        padding-top: 3rem;
+    }
+
+    .c1 .text .landing-title {
+        font-size: 3.2rem;
+    }
+
+    .c1 .text .p-space {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-height: 600px) {
+    .c1 .text {
+        padding-top: 0.65rem;
+    }
+
+    .c3 {
+        height: 120vh;
+    }
+
+    .c4 {
+        height: 120vh;
+    }
+
+    .c4 .about-benefits {
+        padding-bottom: 1rem;
+    }
+
+    .c5 {
+        height: 135vh;
+    }
+
+    .c5 .c5-title {
+        font-size: 3.85rem;
+    }
+
+    .c5 .c5-description {
+        font-size: 1.4rem;
+    }
+
+    .c7 {
+        height: 125vh;
+    }
+}
