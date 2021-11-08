@@ -1029,7 +1029,8 @@
 
 /* HEIGHT ISSUES */
 
-@media (max-height: 800px) {
+@media screen and (max-height: 800px),
+screen and (min-width: 800px) {
     .c1 .text {
         padding-top: 3.65rem;
     }
@@ -1047,7 +1048,8 @@
     }
 }
 
-@media (max-height: 720px) {
+@media screen and (max-height: 720px),
+screen and (min-width: 800px) {
     .c4 {
         height: 115vh;
     }
@@ -1061,7 +1063,8 @@
     }
 }
 
-@media (max-height: 670px) {
+@media screen and (max-height: 670px),
+screen and (min-width: 800px) {
     .c1 img {
         width: 6rem;
     }
@@ -1079,7 +1082,8 @@
     }
 }
 
-@media (max-height: 600px) {
+@media screen and (max-height: 600px),
+screen and (min-width: 800px) {
     .c1 .text {
         padding-top: 0.65rem;
     }
