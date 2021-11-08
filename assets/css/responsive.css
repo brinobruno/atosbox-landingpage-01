@@ -1029,61 +1029,8 @@
 
 /* HEIGHT ISSUES */
 
-@media screen and (max-height: 800px),
-screen and (min-width: 800px) {
-    .c1 .text {
-        padding-top: 3.65rem;
-    }
-
-    .c7 {
-        height: 110vh;
-    }
-
-    .c7 .social-icons img {
-        width: 2.45rem;
-    }
-
-    footer .footer-container {
-        height: 53vh;
-    }
-}
-
-@media screen and (max-height: 720px),
-screen and (min-width: 800px) {
-    .c4 {
-        height: 115vh;
-    }
-
-    .c5 {
-        height: 125vh;
-    }
-
-    .c7 {
-        height: 120vh;
-    }
-}
-
-@media screen and (max-height: 670px),
-screen and (min-width: 800px) {
-    .c1 img {
-        width: 6rem;
-    }
-
-    .c1 .text {
-        padding-top: 3rem;
-    }
-
-    .c1 .text .landing-title {
-        font-size: 3.2rem;
-    }
-
-    .c1 .text .p-space {
-        font-size: 1.3rem;
-    }
-}
-
-@media screen and (max-height: 600px),
-screen and (min-width: 800px) {
+@media screen and (max-height: 600px) and
+(min-width: 800px) {
     .c1 .text {
         padding-top: 0.65rem;
     }
